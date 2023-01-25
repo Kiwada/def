@@ -1,0 +1,30 @@
+#def soma (a ,b, ):
+   #print(f'A = {a} e B = {b}')
+   #s= a + b 
+   #print(f'A some A + B = {s}')
+
+#programa principal 
+#soma (4 , 5)
+#soma (8 ,  9)
+#soma ( b = 2 ,  a = 1)
+
+
+#empacotamento de parametros
+
+#def contador(*núm):
+    #for valor in núm:
+        #print(f'{valor}' , end = '')
+
+
+#contador (2,1,7)
+#contador (4,4,7,6,2)
+
+
+def contador(*núm):
+    tam = len(núm)
+    print(f'Recebi os valores {núm} e são ao todo {tam} números')
+
+
+contador (2,1,7)
+contador (8, 0)
+contador (4,4,7,6,2)
