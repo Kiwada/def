@@ -32,8 +32,8 @@ def contador (i , f , p):
         print('FIM !')
 
 
-#contador(1, 10, 1)
-#contador(10 , 32 ,1)
+contador(1, 10, 1)
+contador(10 , 32 ,1)
 escreva('Agora é sua vez de personalizar a contagem !')
 ini = int(input('inicio'))
 fim = int(input('fim'))
