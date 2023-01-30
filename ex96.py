@@ -1,6 +1,6 @@
 #ex96
 #Faça um Programa que tenha uma função chamada Area() de um terreno retangular (largura e comprimento) e mostre a área do terreno.
-def lin():
+def linnha():
     print('Controle de Terrenos')
     print('-=-'*10)
 
@@ -10,7 +10,7 @@ def área(L,C):
 
 
 #Programa Principal
-lin()
+linha()
 L = float(input('Largura(m)'))
 C = float(input('Comprimento(m):'))
 área(L,C)
