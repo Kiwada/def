@@ -12,18 +12,17 @@ def escreva(msg):
 
 
 
-
-
 def tabular(tabela):
     for pos in range (0, len(tabela)):
         if pos % 2 == 0:
             print(f'{tabela[pos]:.<30}', end = '') 
         else:
-            print(f'R$  {tabela[pos]}:')
+            print(f'R$  {tabela[pos]}.')
 
 
 
 escreva('Lista De Coisas')
 
-tabela = ('Caneta', 1.0, 'Lapis', 5.0, 'Borracha', 0.5, 'Caderno', 20.0, 'Fichário', 29.99)
+tabela = ('Caneta', 1.0, 'Lapis', 5.0, 'Borracha', 0.5, 
+'Caderno', 20.0, 'Fichário', 29.99)
 tabular(tabela)
